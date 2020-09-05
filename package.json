@@ -4,9 +4,9 @@
   "description": "Full setup with webpack, foundation-sites, bootstrap, sass and maybe typescript",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js --env.mode development",
+    "build-dev": "webpack --config webpack.config.js --env.mode development",
     "watch": "webpack-dev-server --config webpack.config.js --env.mode development",
-    "prod": "webpack --config webpack.config.js --env.mode production"
+    "build-prod": "webpack --config webpack.config.js --env.mode production"
   },
   "keywords": [
     "template"
