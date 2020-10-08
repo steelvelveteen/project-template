@@ -35,8 +35,11 @@ module.exports = ({ mode }) => {
                       loader: "file-loader"
                     }
                   ]
-                }
-
+                },
+                {
+                  test: /\.svg$/,
+                  loader: 'svg-inline-loader'
+              }
             ]
         },
         plugins: [
