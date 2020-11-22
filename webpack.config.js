@@ -51,5 +51,5 @@ module.exports = ({ mode }) => {
                 filename: 'main.css'
             })
         ]
-    }
-}
+    };
+};
