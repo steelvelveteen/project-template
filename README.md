@@ -4,6 +4,8 @@
 
 **Prettier** A code formatter used here for Typescript
 
+### Format on Save
+
 Packages:
 
 1. `npm install --save-dev eslint eslint-config-airbnb-base @typescript-eslint/eslint-plugin @typescript-eslint/parser`
