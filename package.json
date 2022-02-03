@@ -9,6 +9,7 @@
         "build:prod": "webpack --config webpack.config.js --mode production",
         "format": "prettier --write src/**/*.ts{,x}",
         "lint": "tsc --noEmit && eslint src/**/*.ts",
+        "lint:fix": "eslint src/**/*.ts --fix",
         "clean": "rm -rf node_modules/ && rm -rf package-lock.json",
         "install:clean": "npm run clean && npm install"
     },
@@ -32,7 +33,6 @@
         "mini-css-extract-plugin": "^1.6.2",
         "node-sass": "^5.0.0",
         "prettier": "^2.5.1",
-        "prettier-eslint": "^13.0.0",
         "sass-loader": "^10.2.1",
         "style-loader": "^2.0.0",
         "svg-inline-loader": "^0.8.2",

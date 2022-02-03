@@ -4,15 +4,16 @@
 
 **Prettier** A code formatter used here for Typescript
 
-### Format on Save
+**NOTE:** Format on Save must be set on VSCode and configured to prettier
 
 Packages:
 
 1. `npm install --save-dev eslint eslint-config-airbnb-base @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+1.A
 
-2. Optionally `npm install --save-dev eslint-plugin-jest`
+2. `npm install --save-dev prettier`. Optionally `npm install --save-dev eslint-plugin-jest`
 
-3. `npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier`
+3. To configure Prettier to work with ESLint: `npm install --save-dev eslint-config-prettier eslint-plugin-prettier`
 
 4. eslintrc.json must know where to find the `tsconfig.json` configuration file. This is set in the `parserOptions` section: `"project": ["tsconfig.json"]`
 
