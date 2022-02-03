@@ -1,6 +1,6 @@
 # A front end template setup with Tyepscript, scss and webpack
 
-## Configuring airbnb for a non-reactjs project
+## Configuring ESLint airbnb and Prettier for a non-reactjs project
 
 **Prettier** A code formatter used here for Typescript
 
@@ -20,3 +20,6 @@ Packages:
 5. Add scripts to format and lint: `"format": "prettier --write src/**/*.ts{,x}"` and `"lint": "tsc --noEmit && eslint src/**/*.ts{,x}"`
 
 6. Add a `.prettierignore` file to exclude build, dist and public directories
+
+## Dockerizing the project
+
