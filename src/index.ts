@@ -16,7 +16,7 @@ const arrayElementNewline = [
   'enforce line breaks between array elements'
 ];
 
-arrayElementNewline.forEach((el: string) => {
+arrayElementNewline.forEach(el => {
   // eslint-disable-next-line no-console
   console.log(el);
 });
