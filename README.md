@@ -9,7 +9,6 @@
 Packages:
 
 1. `npm install --save-dev eslint eslint-config-airbnb-base @typescript-eslint/eslint-plugin @typescript-eslint/parser`
-1.A
 
 2. `npm install --save-dev prettier`. Optionally `npm install --save-dev eslint-plugin-jest`
 
