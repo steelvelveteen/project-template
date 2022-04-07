@@ -12,7 +12,7 @@ Packages:
 
 2. `npm install --save-dev prettier`. Optionally `npm install --save-dev eslint-plugin-jest`
 
-3. To configure Prettier to work with ESLint: `npm install --save-dev eslint-config-prettier eslint-plugin-prettier`
+3. To configure Prettier to work with ESLint: `npm install --save-dev eslint-config-prettier eslint-plugin-prettier eslint-plugin-import`
 
 4. eslintrc.json must know where to find the `tsconfig.json` configuration file. This is set in the `parserOptions` section: `"project": ["tsconfig.json"]`
 
@@ -21,4 +21,3 @@ Packages:
 6. Add a `.prettierignore` file to exclude build, dist and public directories
 
 ## Dockerizing the project
-
