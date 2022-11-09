@@ -1,11 +1,19 @@
 import './style.scss';
+import { Observable, of } from 'rxjs';
 
-// eslint-disable-next-line no-console
+const obs = new Observable();
+
+console.log(obs);
+
+const test = of(1, 2, 3);
+
+test.subscribe(response => console.log(response));
+
 console.log('Hello typescript webpack template');
 
 // Testing prettier
 const bracketSpacing = { foo: 45, bar: 'simple' };
-// eslint-disable-next-line no-console
+
 console.log(bracketSpacing);
 
 const arrayElementNewline = [
