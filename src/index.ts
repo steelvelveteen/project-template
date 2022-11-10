@@ -7,7 +7,7 @@ console.log(obs);
 
 const test = of(1, 2, 3);
 
-test.subscribe(response => console.log(response));
+test.subscribe((response: number) => console.log(response));
 
 console.log('Hello typescript webpack template');
 

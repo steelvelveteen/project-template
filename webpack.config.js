@@ -20,7 +20,7 @@ module.exports = ({ mode }) => {
           use: 'html-loader'
         },
         {
-          test: /\.tsx?$/,
+          test: /\.ts?$/,
           use: 'ts-loader',
           exclude: /node_modules/
         },
