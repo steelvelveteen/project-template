@@ -6,12 +6,13 @@ module.exports = ({ mode }) => {
   return {
     mode,
     entry: {
-      main: './src/index.ts'
+      bundle: './src/index.ts'
     },
     devtool: 'inline-source-map',
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: '[name].[contentHash].js'
+      filename: '[name].[contenthash].js',
+      clean: true
     },
     module: {
       rules: [
